@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(43, 48, 48);
+}
+
+.container {
+  top: 50%;
+  left: 50%;
+  border: 2px solid #fff;
+}
+
+.content {
+  width: 250px;
+  height: 450px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-image: url("nature.jpg");
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.content_title {
+  color: rgb(61, 107, 148);
+  font-family: monospace;
+  background-color: transparent;
+  margin: 20px;
+}
+
+.content hr {
+  width: 70px;
+  border: 2px solid rgb(172, 172, 47);
+  margin: 50px auto;
+}
+
+.content_text {
+  background-color: transparent;
+  color: aliceblue;
+  font-style: italic;
+}
+
+.icon_content {
+  background-color: transparent;
+  color: aliceblue;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+
+.icon_content span {
+  margin-right: 20px;
+}
+
+.bx {
+  color: rgb(172, 172, 47);
+  margin-right: 5px;
+}
+
+.desc{
+  width: 250px;
+  position: absolute;
+  height: 32%;
+  left: 10%;
+  bottom: -100%;
+  padding: 20px;
+  opacity: 0;
+  transition: all 1s ease;
+  background-color: transparent;
+
+}
+
+.desc_text{
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  background-color: transparent;
+
+}
+
+.content:hover .desc{
+  bottom: 0%;
+  opacity: 0.9;
+}
